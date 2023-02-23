@@ -1,3 +1,14 @@
+ <!--
+/*
+* File: ButtonPanel.java
+* Author: Gerecs Diána
+* Copyright: 2023, Gerecs Diána
+* Group: Szoft I-2-E
+* Date: 20230-02-23
+* Github: https://github.com/Gerecs Diána/
+* Licenc: GNU GPL
+*/
+ -->
 <!DOCTYPE html>
 <html lang="hu">
 
@@ -6,15 +17,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sablon</title>
     <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <div class="container">
-        <h1>Sablon</h1>
+        <h1>Dolgozók</h1>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Név</th>
+                    <th>Település</th>
+                    <th>Fizetés</th>
+                </tr>
+            </thead>
+            <tbody id="emptbody"></tbody>
+        </table>
+        
+
+        
+    
+    
     </div>
+
+    <div id="about">  
+        Gerecs Diána, Szoft I-2-E, 2023-02-23  
+    </div>
+    <script src="app.js"></script>
 
 
 </body>
-
+  
 </html>
